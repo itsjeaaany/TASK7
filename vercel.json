@@ -1,6 +1,7 @@
 {
     "rewrites": [
-        {"source": "/jeanyportfolio.html" , "destination": "/login.html"}
+        {"source": "/(.*)" , "destination": "/login.html"}
     ]
 
 }
+
